@@ -13,5 +13,9 @@ print(3+eval("3.5"))
 #complex 复数
 #tuple 元组
 #dict 字典
+#list 列表
 #set 集合
-
+#bool 布尔
+#int 整数
+#float 浮点数
+#str 字符串

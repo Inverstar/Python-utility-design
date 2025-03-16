@@ -14,6 +14,7 @@ print(a,b)
 a,b = b,a 
 a = b = c = [] #居然允许连续赋值
 print(id(a),id(b))
+print(id(a)==id(b))#说明a,b指向同一地址
 b.append(1)
 print(a,b,id(b),c)
 print(id(1))
